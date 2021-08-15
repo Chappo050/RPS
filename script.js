@@ -57,11 +57,11 @@ function playGame(playerSelection) {
         console.log("You win!");
         score ++;
         scoreText.innerText = `Current Score: ${score}`;
-        winLossText.innerText = `Win/Lose Ratio: ${score} / ${plays}`;
+        winLossText.innerText = `Win/Total Ratio: ${score} / ${plays}`;
     }
     else{
         console.log("You Lose!");
-        winLossText.innerText = `Win/Lose Ratio: ${score} / ${plays}`;
+        winLossText.innerText = `Win/Total Ratio: ${score} / ${plays}`;
     }
 }
 
